@@ -1,3 +1,3 @@
 export const NotFound = (params) => {
-    return <div>Not FOund</div>;
+    return <div>Not Found</div>;
 };
