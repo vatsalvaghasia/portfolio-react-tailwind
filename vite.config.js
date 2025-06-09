@@ -10,5 +10,4 @@ export default defineConfig({
             "@": path.resolve(__dirname, "./src"), // ue @ instead of doing ../../ for every file. This is alias
         },
     },
-    base: "/portfolio-react-tailwind",
 });
