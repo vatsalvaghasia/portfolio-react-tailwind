@@ -64,11 +64,8 @@ export const ContactSection = (params) => {
                                 Connect With Me
                             </h4>
                             <div className="flex space-x-4 justify-center">
-                                <a href="">
+                                <a href="https://www.linkedin.com/in/vatsal-vaghasia-4bb3b2369/">
                                     <Linkedin />
-                                </a>
-                                <a href="">
-                                    <Twitter />
                                 </a>
                                 {/* <a href=""><Linkedin/></a> */}
                             </div>
