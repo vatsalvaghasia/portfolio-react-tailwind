@@ -14,19 +14,15 @@ export const AboutSection = (params) => {
                             Passionate App Developer
                         </h3>
                         <p className="text-muted-foreground">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Sit labore asperiores aspernatur ipsa error!
-                            Delectus, necessitatibus accusamus hic illo
-                            voluptate voluptatibus exercitationem ut cupiditate
-                            nulla dolor, adipisci id beatae odit?
-                        </p>
-
-                        <p className="text-muted-foreground">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Sit labore asperiores aspernatur ipsa error!
-                            Delectus, necessitatibus accusamus hic illo
-                            voluptate voluptatibus exercitationem ut cupiditate
-                            nulla dolor, adipisci id beatae odit?
+                            Hi, I'm Vatsal Vaghasia, a Software Developer with
+                            over 3 years of experience in full-stack
+                            development. I specialize in building scalable web
+                            and mobile applications, with hands-on expertise in
+                            technologies like React, Node.js, Firebase, and
+                            cloud platforms like AWS and GCP. I've worked on
+                            projects ranging from logistics platforms to
+                            university systems, and I enjoy creating solutions
+                            that are both user-friendly and performance-driven.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="cosmic-button">
@@ -35,7 +31,8 @@ export const AboutSection = (params) => {
                             </a>
 
                             <a
-                                href="#contact"
+                                target="__blank"
+                                href="/public/Resume.pdf"
                                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                             >
                                 Download Resume
@@ -53,8 +50,9 @@ export const AboutSection = (params) => {
                                         Software Engineer
                                     </h4>
                                     <p className="text-muted-foreground">
-                                        Creating responsive apps with modern
-                                        fameworks.
+                                        Developing robust software solutions
+                                        using modern technologies and best
+                                        practices.
                                     </p>
                                 </div>
                             </div>
@@ -66,7 +64,7 @@ export const AboutSection = (params) => {
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">
-                                        Software Engineer
+                                        Web Development
                                     </h4>
                                     <p className="text-muted-foreground">
                                         Creating responsive apps with modern
@@ -82,11 +80,11 @@ export const AboutSection = (params) => {
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">
-                                        Software Engineer
+                                        Project Management
                                     </h4>
                                     <p className="text-muted-foreground">
-                                        Creating responsive apps with modern
-                                        fameworks.
+                                        Leading projects from conception to
+                                        completion with agile methodologies
                                     </p>
                                 </div>
                             </div>

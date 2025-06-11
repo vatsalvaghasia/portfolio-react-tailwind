@@ -3,31 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "SaaS Landing Page",
-        description: "A beautiful landing page app using React and Tailwind.",
-        image: "/projects/Project1.png",
-        tags: ["React", "TailwindCSS", "Supabase"],
+        title: "Weather App",
+        description:
+            "Get accurate, real-time weather updates and forecasts in a simple, easy-to-use app.",
+        image: "/projects/Project3.png",
+        tags: ["React Native", "TailwindCSS", "API"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/vatsalvaghasia/weather_app",
     },
     {
         id: 2,
-        title: "Orbit Analytics Dashboard",
+        title: "Chat App",
         description:
-            "Interactive analytics dashboard with data visualization and filtering capabilities.",
+            "Stay connected with real-time messaging, all in one easy app.",
         image: "/projects/Project2.png",
-        tags: ["TypeScript", "D3.js", "Next.js"],
+        tags: ["React Native", "TailwindCSS", "Firebase", "Authentication"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/vatsalvaghasia/chat-app",
     },
     {
         id: 3,
-        title: "E-commerce Platform",
+        title: "Cart Grow",
         description:
-            "Full-featured e-commerce platform with user authentication and payment processing.",
-        image: "/projects/Project3.png",
-        tags: ["React", "Node.js", "Stripe"],
-        demoUrl: "#",
+            "Fully responsive website to showcase my front-end development skills in layout, design, and interactivity",
+        image: "/projects/Project1.png",
+        tags: ["Bootstrap", "CSS", "Javascript", "HTML"],
+        demoUrl: "https://vatsalvaghasia.github.io/Cart-Grow/project/",
         githubUrl: "#",
     },
 ];
@@ -75,12 +76,14 @@ export const ProjectsSection = (params) => {
                                     {" "}
                                     <div className="flex space-x-3">
                                         <a
+                                            target="__blank"
                                             href={project.demoUrl}
                                             className="text-foreground/80 hover:text-primary transition-colors duration-300"
                                         >
                                             <ExternalLink />
                                         </a>
                                         <a
+                                            target="__blank"
                                             href={project.githubUrl}
                                             className="text-foreground/80 hover:text-primary transition-colors duration-300"
                                         >
